@@ -1,0 +1,27 @@
+.todo {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  margin: 0.5rem;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.btn {
+  padding: 0.5rem;
+  background: #121212;
+  outline: none;
+  border: none;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #eee;
+}
+
+.btn:hover {
+  background: #1c3456;
+  color: #fff;
+}
